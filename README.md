@@ -24,5 +24,5 @@
 
 [x] Práctica 1: Creación de página web usando HTML5 con enlaces entre ellas. [Web HTML   :page_with_curl:](https://mariarte.github.io/HAB--Mod1-HTML_CSS/Dia_6--Practica%20HTML/www)
 
-[x] Práctica 2: Maquetación de página web usando CSS3 usando flexgrid con diseño responsive, usando estilo aportado en pdf.
+[x] Práctica 2: Maquetación de página web usando CSS3 usando flexbox con diseño responsive, usando estilo aportado en pdf.
 [Web CSS   :page_with_curl:](https://mariarte.github.io/HAB--Mod1-HTML_CSS/Dia_12--Practica%20CSS/www)
