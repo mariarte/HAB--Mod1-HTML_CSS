@@ -1,6 +1,6 @@
 # MÓDULO 1 - HTML y CSS
 
-*Módulo de desarrollo de capacidades para maquetación de páginas web responsivas, usando HTML5 y CSS3*
+*Módulo de desarrollo de capacidades para maquetación de páginas web responsivas, usando HTML5 y CSS3 de cero a avanzado.*
   
   
 
