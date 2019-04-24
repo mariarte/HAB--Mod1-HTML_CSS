@@ -1,0 +1,67 @@
+@import "generico.css";
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+main>h2 {
+    display: none;
+}
+
+main section#portada {
+    padding: 1rem;
+}
+
+main section#portada img {
+    min-width: 100%;
+}
+
+main section#portada article {
+    border: 1px lightgrey solid;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+
+main section#portada article h3 {
+    font-size: 1rem;
+    padding: 0.5rem;
+    margin: 0;
+}
+
+main section#portada article p {
+    padding: 0.5rem;
+}
+
+main section#productos div {
+    padding: 1rem;
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+main section#productos h2 {
+    padding-left: 1rem;
+    padding-bottom: 0;
+}
+
+main section#productos div figure {
+    margin: 0 1rem 0 0;
+    max-width: 100vw;
+    width: 30%;
+    min-width: 100px;
+}
+
+main section#productos div img {
+    max-width: 100%;
+    min-width: 100%;
+}
+
+@media (min-width: 800px) {
+    main>h2 {
+        display: block;
+        text-align: center;
+        margin-top: 1rem;
+    }
+    section#portada {
+        display: flex;
+    }
+}

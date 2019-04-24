@@ -1,0 +1,48 @@
+@import 'xenerico.css';
+
+main > h1 {
+  display: none;
+}
+
+section.cards article {
+  border: 1px solid lightgray;
+  margin-bottom: 1rem;
+  flex-basis: 50%;
+}
+
+section.cards article img {
+  max-width: 100%;
+  min-width: 100%;
+}
+
+section.cards article h1,
+section.cards article p {
+  padding: 0.5rem;
+}
+
+section.about > div {
+  margin-top: 1rem;
+  display: flex;
+  align-items: flex-start;
+}
+
+section.about > div img {
+  width: 30%;
+  margin-right: 1rem;
+}
+
+@media (min-width: 800px) {
+  section.cards {
+    display: flex;
+  }
+
+  section.cards article:first-child {
+    margin-right: 1rem;
+  }
+
+  main > h1 {
+    display: block;
+    text-align: center;
+    margin-top: 1rem;
+  }
+}

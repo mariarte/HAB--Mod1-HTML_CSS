@@ -1,0 +1,9 @@
+header {
+  color: red;
+  background: green;
+  padding: 70px;
+}
+
+h1 {
+  color: initial;
+}

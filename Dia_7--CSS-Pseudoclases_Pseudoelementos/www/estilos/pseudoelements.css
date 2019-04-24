@@ -1,0 +1,57 @@
+/* Pseudo elementos */
+p.especial::first-letter {
+  font-size: 2rem;
+  color: maroon;
+}
+
+p::first-line {
+  background: yellow;
+}
+
+p::selection {
+  background: green;
+  text-shadow: 2px 2px 2px red;
+}
+
+a[href^='http']::after {
+  content: '↗️';
+}
+
+a[href^='http']::after {
+  border: 2px solid red;
+  margin-left: 10px;
+}
+
+/* a::before {
+  content: 'XXX';
+} */
+
+/* Combinación de selectores */
+p,
+a {
+  color: green;
+}
+
+header p {
+  border-bottom: 2px solid limegreen;
+}
+
+header p strong {
+  color: red;
+}
+
+header > p > strong {
+  background: lightskyblue;
+}
+
+h1 + strong {
+  background: green;
+}
+
+header + p {
+  background: lightsalmon;
+}
+
+h1 ~ p {
+  background: lightgoldenrodyellow;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Portada de tienda de productos">
+    <meta name="author" content="María Arteaga">
+    <title>Productos Candela:Contacto</title>
+</head>
+
+<body>
+    <header>
+        <h1>Productos El Secreto de Candela</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" title="Link a Portada">Portada</a></li>
+                <li><a href="productos.html" title="Link a Productos">Productos</a></li>
+                <li><a href="" title="Link a Contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form>
+                <fieldset>
+                    <legend>Datos personales:</legend>
+                    <ul>
+                        <li>
+                            <label for="nombre">Nombre</label>
+                            <input type="text" id="nombre" name="nombre" autofocus>
+                        </li>
+                        <li>
+                            <label for="comentario">Comentario</label>
+                            <textarea name="comentario" id="comentario"></textarea>
+                        </li>
+                    </ul>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Datos de contacto</legend>
+                    <ul>
+                        <li>
+                            <label for="provincia">Provincia:</label>
+                            <select name="provincia" id="provincia">
+                                <option value="coruña" selected>A Coruña</option>
+                                <option value="pontevedra">Pontevedra</option>
+                                <option value="lugo">Lugo</option>
+                                <option value="ourense">Ourense</option>
+                            </select>
+                        </li>
+                        <li>
+                            <label for="ciudad">Ciudad:</label>
+                            <select name="ciudad" id="ciudad">
+                                <option value="ferrol" selected>Ferrol</option>
+                                <option value="santiago">Santiago</option>
+                                <option value="ciudad 2">Ciudad 2</option>
+                                <option value="ciudad 3">Ciudad 3</option>
+                            </select>
+                        </li>
+                    </ul>
+                </fieldset>
+                <button type="submit">Enviar</button>
+            </form>
+
+            <aside>
+                <h3>También por:</h3>
+                <address>
+                    <p><a href="tel:981000000">981 000 000</a></p>
+                    <p><a href="https://es-es.facebook.com/">Facebook</a></p>
+                </address>
+            </aside>
+        </section>
+
+        <section id="direccion">
+            <h2>Dirección</h2>
+            <figure>
+                <img src="media/mapa.jpg" alt="Imagen de navegador para llegar a la ubicación" width="500">
+            </figure>
+            <address>
+                <p><strong>Productos guays</strong></p>
+                <p><em>Av. Galicia, s/n</em></p>
+                <p>36630 - A Coruña</p>
+            </address>
+        </section>
+    </main>
+    <footer>
+        <p><strong>(c) 2019 Hackabos</strong></p>
+        <p>Esta web ha sido realizada en el curso de <abbr title="Hyper Text Markup Languaje">HTML</abbr> y <abbr title="Cascading Styke Sheet">CSS</abbr> de HackaBos</p>
+        <nav>
+            <ul>
+                <li><a href="index.html" title="Link a Portada">Portada</a></li>
+                <li><a href="productos.html" title="Link a Productos">Productos</a></li>
+                <li><a href="" title="Link a Contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+</body>
+
+</html>

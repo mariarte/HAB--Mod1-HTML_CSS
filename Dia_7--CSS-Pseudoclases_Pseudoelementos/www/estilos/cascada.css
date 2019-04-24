@@ -1,0 +1,56 @@
+/* 101 */
+header #unico {
+  border: 1px solid red;
+  color: red;
+}
+
+/* 11 */
+header .guai {
+  color: red;
+}
+
+/* 11  */
+header .especial {
+  color: green;
+  border: none;
+}
+
+/* 1 */
+p {
+  color: blue;
+}
+
+/* 101 */
+#outer a {
+  background-color: red;
+}
+
+/* 201 */
+#outer #inner a {
+  background-color: blue;
+}
+
+/* 104 */
+#outer div ul li a {
+  color: yellow;
+}
+
+/* 113 */
+#outer div ul .nav a {
+  color: white;
+}
+
+/* 24 */
+div div li:nth-child(2) a:hover {
+  border: 10px solid black;
+}
+
+/* 23 */
+div li:nth-child(2) a:hover {
+  border: 10px dashed black;
+}
+
+/* 34 */
+div::first-line div .nav:nth-child(2) a:hover {
+  border: 10px double black;
+}

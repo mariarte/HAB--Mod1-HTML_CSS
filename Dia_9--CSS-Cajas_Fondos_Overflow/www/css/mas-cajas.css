@@ -1,0 +1,36 @@
+header {
+  background: lightgoldenrodyellow;
+  width: 70%;
+  padding: 1rem;
+  margin: 0 auto;
+  max-width: 800px;
+  min-width: 300px;
+  display: block;
+}
+
+strong {
+  background: lightcoral;
+  margin: 10px 30px;
+  width: 300px;
+  height: 100px;
+  display: inline-block;
+}
+
+body > section {
+  background: lightpink;
+  font-size: 1.4rem;
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 2rem;
+  padding: 1rem;
+  height: 150px;
+  /* overflow: visible;
+  overflow: hidden;
+  overflow: auto; */
+  overflow-x: scroll;
+  overflow-y: scroll;
+}
+
+body > section > p {
+  width: 500px;
+}

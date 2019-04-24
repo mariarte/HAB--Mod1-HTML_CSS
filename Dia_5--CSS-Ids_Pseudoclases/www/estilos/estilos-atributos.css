@@ -1,0 +1,36 @@
+[lang] {
+  color: red;
+}
+
+[href] {
+  font-size: 2rem;
+}
+
+[title] {
+  text-decoration: underline;
+}
+
+[data-hackabos] {
+  border: 2px solid blue;
+}
+
+[data-hackabos='modulo1'] {
+  background: green;
+}
+
+[data-hackabos~='modulo0'] {
+  background: yellow;
+}
+
+[data-etiquetas^='ver'] {
+  border: 2px solid purple;
+}
+
+[class$='ante'] {
+  background: blue;
+  color: white;
+}
+
+[data-etiquetas*='gen'] {
+  background: magenta;
+}

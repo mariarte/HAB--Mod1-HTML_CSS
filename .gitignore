@@ -1,0 +1,24 @@
+# gitignore
+
+
+node_modules/
+npm-debug.log
+
+.DS_Store
+current
+default-packages
+
+npm-shrinkwrap.json
+package-lock.json
+yarn.lock
+
+Crear servidor
+Guia CSS.pdf
+Guia HTML.pdf
+Documentación HTML - CSS
+
+
+
+
+
+

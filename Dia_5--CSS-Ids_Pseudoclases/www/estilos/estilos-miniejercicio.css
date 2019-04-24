@@ -1,0 +1,4 @@
+[href^='http'] {
+  background: purple;
+  color: white;
+}

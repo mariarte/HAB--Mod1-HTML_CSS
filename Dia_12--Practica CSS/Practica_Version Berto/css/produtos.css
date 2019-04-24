@@ -1,0 +1,73 @@
+@import 'xenerico.css';
+
+main > h1 {
+  margin: 1rem 0 0 1rem;
+}
+
+section.cards article {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+}
+
+section.cards article:last-child {
+  margin-bottom: 0;
+}
+
+section.cards article figure {
+  margin: 0 1rem 0 0;
+  width: 30%;
+}
+
+section.cards article figure img {
+  max-width: 100%;
+}
+
+section.cards header h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+section.cards header .boton {
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+section.prices table {
+  width: 100%;
+  border-spacing: 0;
+}
+
+section.prices table caption {
+  font-style: italic;
+  padding: 1rem;
+}
+
+section.prices table th {
+  text-align: left;
+}
+
+section.prices td,
+section.prices th {
+  padding: 0.5rem;
+}
+
+section.prices tbody td:nth-child(2) {
+  font-style: italic;
+}
+
+section.prices tbody tr:nth-child(odd) {
+  background-color: lightgray;
+}
+
+@media (min-width: 800px) {
+  section.cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  section.cards article {
+    width: 50%;
+  }
+}

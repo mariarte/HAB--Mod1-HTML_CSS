@@ -1,0 +1,121 @@
+@import 'xenerico.css';
+
+main > h1 {
+  margin: 1rem 0 0 1rem;
+}
+
+section.contact form {
+  margin-bottom: 2rem;
+}
+
+section.contact form fieldset {
+  border: none;
+  margin-bottom: 1rem;
+}
+
+section.contact form label {
+  display: block;
+  margin-bottom: 0.2rem;
+  font-weight: bold;
+}
+
+section.contact form input,
+section.contact form textarea,
+section.contact form select {
+  width: 100%;
+  border: 1px solid gray;
+  padding: 0.5rem;
+}
+
+section.contact form textarea {
+  height: 8rem;
+}
+
+section.contact form .boton {
+  border: none;
+}
+
+section.contact aside {
+  background: lightgray;
+  padding: 1rem;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+section.contact aside h2 {
+  margin-bottom: 1rem;
+}
+
+section.contact aside ul {
+  list-style: none;
+}
+
+section.contact aside ul a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  margin-bottom: 0.5rem;
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding: 0.5rem 0 0.5rem 2rem;
+}
+
+section.contact aside .phone {
+  background-image: url(/img/phone.png);
+}
+
+section.contact aside .facebook {
+  background-image: url(/img/facebook.png);
+}
+
+section.localization address {
+  margin-bottom: 1rem;
+}
+
+section.localization address p {
+  margin-bottom: 0.5rem;
+}
+
+section.localization address p:first-child {
+  font-weight: bold;
+}
+
+section.localization figure img {
+  max-width: 100%;
+}
+
+@media (min-width: 800px) {
+  main > h1 {
+    text-align: center;
+  }
+  section.contact {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  section.contact form {
+    flex-basis: 60%;
+    margin-right: 2rem;
+  }
+
+  section.contact aside {
+    flex-basis: 40%;
+    margin-top: 1.4rem;
+  }
+
+  section.localization article {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    margin-top: 2rem;
+  }
+
+  section.localization article figure {
+    flex-basis: 50%;
+    margin-right: 2rem;
+  }
+
+  section.localization article address {
+    flex-basis: 40%;
+  }
+}

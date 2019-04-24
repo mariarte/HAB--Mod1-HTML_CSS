@@ -1,0 +1,52 @@
+h1 {
+    background: lightblue;
+    width: 400px;
+    height: 10rem;
+    /* https://developer.mozilla.org/en-US/docs/Web/CSS/padding */
+    padding: 20%;
+    /* mismo valor para cada lado */
+    padding: 2rem 100px;
+    /* primer valor: arriba y abajo, segundo valor: izquierda e derecha */
+    padding: 2rem 100px 1rem;
+    /* primer valor: arriba, segundo valor: izquierda e derecha, tercer valor: abajo */
+    padding: 2rem 20px 1rem 20px;
+    /* arriba, derecha, abajo, izquierda */
+    /* padding-top: 2rem;
+  padding-right: 1rem;
+  padding-bottom: 2rem;
+  padding-left: 1rem; */
+    border: 10px solid black;
+    margin: 0 auto;
+    /* box-sizing: border-box; */
+}
+
+ul {
+    background: lightgoldenrodyellow;
+    margin-bottom: 4rem;
+}
+
+li {
+    background: lightgreen;
+}
+
+h2 {
+    background: lightcoral;
+    width: 300px;
+    padding: 10px;
+    border: 10px solid blue;
+    box-sizing: border-box;
+}
+
+p {
+    background: lightpink;
+    width: 300px;
+    margin: 0 auto;
+}
+
+strong {
+    background: lightslategray;
+}
+
+em {
+    background: lightseagreen;
+}

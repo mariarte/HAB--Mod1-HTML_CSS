@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Pokemon Solid';
+    src: url("/fonts/PokemonSolidNormal.woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    background: #e3257e;
+    background-image: url("media/os.png"), url("media/sq.png");
+    background-repeat: no-repeat, no-repeat;
+    background-size: auto auto, 700px auto;
+    background-position: left bottom, right bottom;
+}
+
+body h1 {
+    font-family: 'Pokemon Solid', sans-serif;
+    margin: auto;
+    color: #ffcb1f;
+    font-size: 8rem;
+    letter-spacing: 10px;
+    text-shadow: -10px 10px 0px #92cee2;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+body img {
+    max-width: 400px;
+    display: block;
+    margin: 0 auto;
+}

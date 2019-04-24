@@ -1,0 +1,40 @@
+body {
+    background-image: url(media/pika.png);
+}
+
+header {
+    width: 70%;
+    height: 600px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 200, 0.8);
+    background-image: url(media/pika2.png);
+    /* background-repeat: repeat;
+  background-repeat: repeat-x;
+  background-repeat: repeat-y; */
+    background-repeat: no-repeat;
+    /* background-position: center bottom;  primero horizontal, despues vertical */
+    /* background-position: 100px center;
+  background-size: auto auto; */
+    /* background-size: 100% 100%; */
+    /* background-size: contain;
+  background-size: cover; */
+    background-position: center center;
+    padding-top: 100px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: 3px 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+header h1 {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2rem 0;
+    opacity: 1;
+    color: white;
+    /* border-width: 10px;
+  border-style: solid;
+  border-color: red; */
+    border: 10px solid red;
+    border-radius: 2rem 4rem 3rem 5rem;
+}

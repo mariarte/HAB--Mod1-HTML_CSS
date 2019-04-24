@@ -1,0 +1,109 @@
+    @import "generico.css";
+    main>h2 {
+        margin: 1rem;
+    }
+    
+    section#contacto {
+        display: flex;
+        flex-direction: column;
+        margin: 1rem 1rem 2rem 1rem;
+    }
+    
+    section#contacto form {
+        width: 100%;
+    }
+    
+    section#contacto ul li {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 0.8rem;
+    }
+    
+    section#contacto ul label {
+        padding-bottom: 0.2rem;
+    }
+    
+    section#contacto ul textarea {
+        height: 8rem;
+    }
+    
+    button {
+        border: none;
+        margin-top: 0.5rem;
+    }
+    
+    aside {
+        margin: 1rem 0rem;
+        border: 1px grey solid;
+        background-color: lightgray;
+        padding: 1rem;
+    }
+    
+    aside a {
+        margin: 1rem;
+        display: block;
+        text-decoration: none;
+        color: black;
+        padding-left: 1.5rem;
+    }
+    
+    aside address p:first-child a {
+        background: url("/media/phone.png") no-repeat;
+        background-size: 16px 16px;
+    }
+    
+    aside address p:last-child a {
+        background: url("/media/facebook.png") no-repeat;
+        background-size: 16px 16px;
+    }
+    
+    section#direccion div {
+        display: flex;
+        flex-direction: column;
+        margin: 1rem 1rem 2rem 1rem;
+    }
+    
+    section#direccion h2 {
+        margin: 1rem;
+    }
+    
+    section#direccion address {
+        order: -1;
+        margin-bottom: 1rem;
+    }
+    
+    section#direccion img {
+        max-width: 100%;
+        min-width: 100%;
+    }
+    
+    @media (min-width: 800px) {
+        main>h2 {
+            text-align: center;
+        }
+        section#contacto {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            /*hace que la ventana de formas de contacto se adapte al tamaño */
+        }
+        section#contacto form {
+            flex-basis: 60%;
+            margin-right: 2rem;
+        }
+        section#contacto aside {
+            flex-basis: 40%;
+            margin-top: 1.4rem;
+        }
+        section#direccion div {
+            flex-direction: row-reverse;
+        }
+        section#direccion div figure {
+            flex-basis: 60%;
+            margin-right: 2rem;
+        }
+        section#direccion div address {
+            flex-basis: 40%;
+        }
+    }

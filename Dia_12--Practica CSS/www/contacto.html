@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Página de contacto de productos Candela">
+    <meta name="author" content="María Arteaga">
+    <title>Productos Candela:Contacto</title>
+    <link rel="stylesheet" href="estilos/estilos_contacto.css">
+</head>
+
+<body>
+    <header class="main-header">
+        <h1>Productos Candela</h1>
+        <nav>
+            <ul>
+                <li><a class="boton" href="index.html" title="Link a Portada">Portada</a></li>
+                <li><a class="boton" href="productos.html" title="Link a Productos">Productos</a></li>
+                <li><a class="boton" href="" title="Link a Contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Contacto</h2>
+        <section id="contacto">
+            <form>
+                <ul>
+                    <li>
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="nombre" autofocus>
+                    </li>
+                    <li>
+                        <label for="comentario">Comentario</label>
+                        <textarea name="comentario" id="comentario"></textarea>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <label for="provincia">Provincia:</label>
+                        <select name="provincia" id="provincia">
+                            <option value="coruña" selected>A Coruña</option>
+                            <option value="pontevedra">Pontevedra</option>
+                            <option value="lugo">Lugo</option>
+                            <option value="ourense">Ourense</option>
+                        </select>
+                    </li>
+                    <li>
+                        <label for="ciudad">Ciudad:</label>
+                        <select name="ciudad" id="ciudad">
+                            <option value="ferrol" selected>Ferrol</option>
+                            <option value="santiago">Santiago</option>
+                            <option value="ciudad 2">Ciudad 2</option>
+                            <option value="ciudad 3">Ciudad 3</option>
+                        </select>
+                    </li>
+                </ul>
+                <button class="boton" type="submit">Enviar</button>
+            </form>
+
+            <aside>
+                <h3>También por:</h3>
+                <address>
+                    <p><a href="tel:981123456">981 123 456</a></p>
+                    <p><a href="https://es-es.facebook.com/">Facebook</a></p>
+                </address>
+            </aside>
+        </section>
+        <h2>Dirección</h2>
+        <section id="direccion">
+            <div>
+                <figure>
+                    <img src="media/mapa.jpg" alt="Imagen de navegador para llegar a la ubicación">
+                </figure>
+                <address>
+                    <p><strong>Productos Candela</strong></p>
+                    <p><em>Av. Galicia, s/n</em></p>
+                    <p>32040 - A Coruña</p>
+                </address>
+            </div>
+        </section>
+
+        <footer>
+            <p><strong>(c) 2019 Hackabos</strong></p>
+            <section>
+                <p>Esta web ha sido realizada en el curso de <abbr title="Hyper Text Markup Languaje">HTML</abbr> y <abbr title="Cascading Styke Sheet">CSS</abbr> de HackaBos</p>
+                <nav>
+                    <ul>
+                        <li><a href="index.html" title="Link a Portada">Portada</a></li>
+                        <li><a href="productos.html" title="Link a Productos">Productos</a></li>
+                        <li><a href="" title="Link a Contacto">Contacto</a></li>
+                    </ul>
+                </nav>
+            </section>
+        </footer>
+    </main>
+</body>
+
+</html>

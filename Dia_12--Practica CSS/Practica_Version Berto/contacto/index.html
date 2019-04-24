@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="gl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Produtos guais: Portada</title>
+
+  <link rel="stylesheet" href="/css/contacto.css">
+</head>
+
+<body>
+  <div class="container">
+    <header class="main-header">
+      <h1>Produtos guais</h1>
+      <nav>
+        <ul>
+          <li><a class="boton" href="/">Portada</a></li>
+          <li><a class="boton" href="/produtos">Produtos</a></li>
+          <li><a class="boton" href="/contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Contacto</h1>
+
+      <section class="contact">
+        <form action="">
+          <fieldset>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome">
+          </fieldset>
+
+          <fieldset>
+            <label for="comentario">Comentario</label>
+            <textarea name="comentario" id="comentario"></textarea>
+          </fieldset>
+
+          <fieldset>
+            <label for="provincia">Provincia</label>
+            <select name="provincia" id="provincia">
+              <option value="Lugo">Lugo</option>
+              <option value="A Coruña">A Coruña</option>
+            </select>
+          </fieldset>
+
+          <fieldset>
+            <label for="cidade">Cidade</label>
+            <select name="cidade" id="cidade">
+              <option value="A Coruña">A Coruña</option>
+              <option value="Santiago">Santiago de Compostela</option>
+            </select>
+          </fieldset>
+
+          <button class="boton">Enviar</button>
+        </form>
+
+        <aside>
+          <h2>Tamén por:</h2>
+          <ul>
+            <li><a class="phone" href="tel:981000000">98100000</a></li>
+            <li><a class="facebook" href="#">produtosguais</a></li>
+          </ul>
+        </aside>
+      </section>
+
+      <section class="localization">
+        <h2>Dirección</h2>
+        <article>
+          <address>
+            <p>Produtos guais</p>
+            <p>Cidade Vella, s/n</p>
+            <p>15001 - A Coruña</p>
+          </address>
+          <figure><img src="/img/mapa.png" alt="Imaxe de Google Maps"></figure>
+        </article>
+      </section>
+
+
+      <footer class="main-footer">
+        <p>(c) Hackabos 2019</p>
+        <nav>
+          <p>Esta web foi feita no curso de HTML e CSS de Hackabos</p>
+          <ul>
+            <li><a href="/">Portada</a></li>
+            <li><a href="/produtos">Produtos</a></li>
+            <li><a href="/contacto">Contacto</a></li>
+          </ul>
+        </nav>
+      </footer>
+    </main>
+  </div>
+</body>
+
+</html>

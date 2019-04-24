@@ -1,0 +1,17 @@
+header {
+  color: green;
+  font-size: 1rem;
+}
+
+#contido {
+  background: lightcyan;
+}
+
+.importante {
+  background: rebeccapurple;
+  color: white;
+}
+
+.extra {
+  font-size: 3rem;
+}

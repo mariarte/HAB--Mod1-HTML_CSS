@@ -1,0 +1,87 @@
+@import "generico.css";
+main section ul li article {
+    list-style: none;
+}
+
+.boton {
+    text-align: center;
+}
+
+article header.boton {
+    display: inline;
+}
+
+main>h2 {
+    padding: 1rem;
+}
+
+section article {
+    display: flex;
+    padding: 1rem 1rem 2rem 1rem;
+}
+
+section article p {
+    font-size: 0.8rem;
+    margin-bottom: 1.5rem;
+}
+
+section header a.boton {
+    margin-left: 0;
+    display: inline;
+}
+
+section article figure {
+    order: -1;
+}
+
+section article figure img {
+    padding-right: 0.5rem;
+}
+
+section article h1 {
+    padding-bottom: 0.5rem;
+}
+
+table {
+    width: 100%;
+    margin-bottom: 2rem;
+    border-spacing: 0;
+}
+
+table thead {
+    text-align: left;
+}
+
+table caption {
+    font-size: 0.8rem;
+}
+
+table th,
+table td {
+    padding: 0.5rem;
+}
+
+tbody td:nth-child(2) {
+    font-style: italic;
+}
+
+tbody tr:nth-child(2n+1) {
+    background-color: lightgray;
+}
+
+@media (min-width: 800px) {
+    section ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    main section#productos ul li {
+        list-style: none;
+        flex-basis: 50%;
+    }
+    main section ul li img {
+        max-width: 150px;
+    }
+    h2 {
+        text-align: center;
+    }
+}

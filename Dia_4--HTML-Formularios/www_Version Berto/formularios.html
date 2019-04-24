@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Formularios 2</title>
+</head>
+
+<body>
+  <h1>Formulario</h1>
+  <form action="." method="GET">
+    <fieldset>
+      <legend>Os teus datos</legend>
+      <fieldset>
+        <legend>Datos de acceso</legend>
+
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome" value="berto" autofocus maxlength="10"
+          placeholder="Escribe o teu nome">
+
+        <label for="correo">Email:</label>
+        <input type="email" name="correo" id="correo">
+      </fieldset>
+
+      <fieldset>
+        <legend>Seguridade</legend>
+        <label for="contrasinal">Contrasinal:</label>
+        <input type="password" name="contrasinal" id="contrasinal">
+      </fieldset>
+
+      <fieldset>
+        <legend>Outros datos</legend>
+        <label for="web">URL:</label>
+        <input type="url" name="web" id="web">
+      </fieldset>
+
+      <fieldset>
+        <legend>Outras movidas</legend>
+        <label for="bio">Biografía:</label>
+        <textarea name="bio" id="bio" rows="10" cols="80"></textarea>
+
+        <label for="provincia">Provincia:</label>
+
+        <select name="provincia" id="provincia" size="1">
+          <optgroup label="provincias guais">
+            <option value="lugo" selected>Lugo</option>
+          </optgroup>
+          <optgroup label="provincias menos guais">
+            <option value="coruña">A Coruña</option>
+            <option value="pontevedra">Pontevedra</option>
+            <option value="ourense" disabled>Ourense</option>
+          </optgroup>
+        </select>
+      </fieldset>
+
+      <fieldset>
+        <legend>Máis cousas</legend>
+        <label for="newsletter">Recibir newsletter</label>
+        <input type="checkbox" name="newsletter" id="newsletter" checked>
+        <label for="codicions">Aceptar condicións</label>
+        <input type="checkbox" name="newsletter" id="codicions">
+      </fieldset>
+
+      <fieldset>
+        <legend>Comida favorita</legend>
+        <ul>
+          <li>
+            <label for="pementos">Pementos:</label>
+            <input type="radio" name="comidafavorita" id="pementos" value="pementos" checked>
+          </li>
+          <li>
+            <label for="sopa">Sopa</label>
+            <input type="radio" name="comidafavorita" id="sopa" value="sopa">
+          </li>
+        </ul>
+      </fieldset>
+    </fieldset>
+    <fieldset>
+      <legend>Máis movidas</legend>
+      <label for="idade">Idade:</label>
+      <input type="number" name="idade" id="idade" min="0" max="99" step="5">
+
+      <label for="datanacemento">Data de nacemento:</label>
+      <input type="date" name="datanacemento" id="datanacemento" min="2013-06-01" max="2013-08-31">
+      <!-- 
+        <input type="month" name="datanacemento">
+        <input type="week" name="datanacemento">
+        <input type="time" name="datanacemento"> 
+      -->
+
+      <label for="color">Cor favorita:</label>
+      <input type="color" name="color" id="color" value="#ffcc99">
+
+      <label for="curriculum">Sube o teu curriculum:</label>
+      <input type="file" name="curriculum" id="curriculum">
+
+      <label for="rango">Arrastra isto:</label>
+      <input type="range" min="0" max="99" step="5" value="0" name="rango" id="rango">
+    </fieldset>
+
+    <button>Enviar</button>
+    <button type="reset">Resetear aos valores iniciais</button>
+    <button type="button">Non fai nada</button>
+  </form>
+
+</body>
+
+</html>

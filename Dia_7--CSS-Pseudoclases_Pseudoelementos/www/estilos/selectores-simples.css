@@ -1,0 +1,37 @@
+h1 {
+    background: rebeccapurple;
+    color: red;
+}
+
+#principal { 
+    color: lime;
+}
+
+.parrafo {
+    background: lightgrey
+}
+
+.cabecera {
+    font-size: 1.5rem;
+}
+
+[href] {
+    color:red;
+}
+
+[data-rel~="especial"] {
+    background: lightcoral;
+}
+
+
+[lang="la"] {
+    font-style: italic;
+}
+
+[data-hackabos] {
+    border-bottom: 8px solid yellow;
+}
+
+[data-hackabos="modulo1"] {
+    border-bottom: 8px solid red;
+}

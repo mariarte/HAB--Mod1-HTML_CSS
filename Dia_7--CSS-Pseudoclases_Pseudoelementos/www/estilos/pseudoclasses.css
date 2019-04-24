@@ -1,0 +1,32 @@
+li:first-child {
+  background: yellow;
+}
+
+li:nth-child(2) {
+  background: red;
+}
+
+.destacado {
+  font-size: 2rem;
+}
+
+li:not(.destacado) {
+  border-bottom: 7px solid black;
+}
+
+li:empty {
+  background: maroon;
+}
+
+li:only-child {
+  font-size: 3rem;
+}
+
+p:nth-of-type(1) {
+  background: lightcoral;
+}
+
+p:hover,
+h1:hover {
+  background: red;
+}

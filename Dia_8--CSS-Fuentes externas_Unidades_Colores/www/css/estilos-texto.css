@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,400,900');
+
+/* Importar una fuente descargada de internet */
+
+@font-face {
+    font-family: 'Marela';
+    src: url('/fonts/Marela.woff2') format('woff2'), url('/fonts/Marela.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header {
+    text-transform: uppercase;
+}
+
+header h1 {
+    color: rebeccapurple;
+    font-family: Marela, Arial, sans-serif;
+    font-size: 2rem;
+    font-style: italic;
+    text-shadow: -3px -3px 2px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    background: lightgoldenrodyellow;
+    letter-spacing: -4px;
+}
+
+header p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-transform: none;
+    line-height: 2;
+    word-spacing: -2px;
+}
+
+header p:last-child {
+    text-align: center;
+}
+
+header p strong {
+    text-align: center;
+    background: lightcyan;
+}
+
+header p a {
+    text-decoration: none;
+}
